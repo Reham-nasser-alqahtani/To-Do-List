@@ -60,7 +60,6 @@ margin-bottom: 8px;
 padding: 8px 10px;
 border-radius: 5px;
 
-
  
 }
 #task-list li span {
@@ -80,6 +79,7 @@ color: gray;
 }
 
 .editBtn, .delBtn {
+width:70px;
 height: 35px;
 border: none;
 border-radius: 6px;
@@ -89,21 +89,19 @@ align-items: center;
 transition: 0.2s;
 margin-left: 2px;
 display: flex;
-margin-left: 6px;
+justify-content: center;
   
   
 }
 .delBtn {
 color: rgb(255, 255, 255);
 background: #a21010;
-width: 50px;
  
 }
 
 .editBtn {
 color: #ffffff;
 background-color: #e85a9c;
-width: 40px;
 }
 
 .delBtn:hover, .editBtn:hover {
