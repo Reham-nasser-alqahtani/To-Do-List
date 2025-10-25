@@ -1,0 +1,107 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(to right, #e85a9c, #f5c7d9);
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+padding-top: 40px;
+}
+
+.container {
+background: #fff;
+width: 90%;
+max-width: 450px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+text-align: center;
+color: #e85a9c;
+}
+
+.input {
+display: flex;
+justify-content: space-between;
+}
+
+#task-input {
+width: 75%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+#add-btn {
+width: 20%;
+border: none;
+background-color: #e85a9c;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#add-btn:hover {
+background-color: #d14689;
+}
+
+#task-list {
+
+padding: 0;
+}
+
+#task-list li {
+display: flex;
+align-items: center;
+background: #f7f7f7;
+margin-bottom: 8px;
+padding: 8px 10px;
+border-radius: 5px;
+
+ 
+}
+#task-list li span {
+flex: 1;
+margin-left: 10px;
+
+}
+
+
+.checkbox {
+accent-color: #e85a9c;
+}
+
+.done {
+text-decoration: line-through;
+color: gray;
+}
+
+.editBtn, .delBtn {
+width: 50px;
+height: 35px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 14px;
+align-items: center;
+transition: 0.2s;
+margin-left: 2px;
+  
+  
+}
+.delBtn {
+color: rgb(255, 255, 255);
+background: #a21010;
+ 
+}
+
+.editBtn {
+color: #ffffff;
+background-color: #e85a9c;
+}
+
+.delBtn:hover, .editBtn:hover {
+background-color: #a76f8a;
+}

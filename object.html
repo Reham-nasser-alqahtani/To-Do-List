@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Object</title>
+</head>
+<body>
+
+<p id="output"></p>
+
+<script>
+let student = { name: "Reham", age: 20, grade: "A",
+    
+    greet: function() {
+   
+        document.getElementById("output").innerText = "Hello, my name is " + this.name;
+    }
+};
+
+
+student.age = 21;
+document.write("Name :" + student.name+"<br>");
+document.write("Age :" + student.age);
+
+
+
+student.greet(); 
+</script>
+
+</body>
+</html>
